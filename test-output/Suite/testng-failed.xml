@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.nova.test.extentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.nova.test.test.NewsLetterPageTest">
+        <methods>
+          <include name="release"/>
+          <include name="clickOnBackListButtonTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.nova.test.test.NewsLetterPageTest -->
+      <class name="com.nova.test.test.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyTitleTest"/>
+          <include name="release"/>
+        </methods>
+      </class> <!-- com.nova.test.test.LoginPageTest -->
+      <class name="com.nova.test.test.EditInfoTest">
+        <methods>
+          <include name="release"/>
+          <include name="EnterDetailsTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.nova.test.test.EditInfoTest -->
+      <class name="com.nova.test.test.MyProfilePageTest">
+        <methods>
+          <include name="cancelButtonTest"/>
+          <include name="release"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.nova.test.test.MyProfilePageTest -->
+      <class name="com.nova.test.test.HomePageTest">
+        <methods>
+          <include name="release"/>
+          <include name="setup"/>
+          <include name="clickOnUserGuideTest"/>
+        </methods>
+      </class> <!-- com.nova.test.test.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="9" total="10" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-04T15:32:37Z" name="Default suite" finished-at="2021-07-04T15:33:04Z" duration-ms="27284">
+    <groups>
+    </groups>
+    <test started-at="2021-07-04T15:32:37Z" name="Default test" finished-at="2021-07-04T15:33:04Z" duration-ms="27284">
+      <class name="com.nova.test.test.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.nova.test.test.HomePageTest@11f0a5a1]" started-at="2021-07-04T21:02:37Z" name="setup" finished-at="2021-07-04T21:02:54Z" duration-ms="17037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="planOptionClick()[pri:0, instance:com.nova.test.test.HomePageTest@11f0a5a1]" started-at="2021-07-04T21:02:54Z" name="planOptionClick" finished-at="2021-07-04T21:03:04Z" duration-ms="9745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- planOptionClick -->
+        <test-method is-config="true" signature="release()[pri:0, instance:com.nova.test.test.HomePageTest@11f0a5a1]" started-at="2021-07-04T21:03:04Z" name="release" finished-at="2021-07-04T21:03:04Z" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- release -->
+      </class> <!-- com.nova.test.test.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
